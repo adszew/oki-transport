@@ -6,3 +6,9 @@ android:
     - android-23
     - extra-android-m2repository
     - sys-img-armeabi-v7a-android-23
+
+  before_install:
+    - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI -c 20M
+    - emulator -avd test -no-skin -no-audio -no-window &
+    - chmod +x ./wait_for_emulator.sh
+    - ./wait_for_emulator.sh
