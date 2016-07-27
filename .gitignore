@@ -10,3 +10,13 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Gradle specific
+local.properties
+
+# Android developer specific
+.gradle
+.idea
+
+# Mac specific files
+.DS_Store

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="search_routes"  type="id" />
+    <item name="destination"    type="id" />
+    <item name="origin"         type="id" />
+    <item name="departure_time"  type="id" />
+    <item name="list"             type="id" />
+    <item name="route_list_label" type="id" />
+    <item name="route_detail_summary" type="id" />
+    <item name="route_list_view" type="id" />
+    <item name="route_cost_text" type="id" />
+    <item name="is_accessible_text" type="id" />
+    <item name="route_name" type="id" />
+    <item name="route_provider_label" type="id" />
+    <item name="search_origin" type="id" />
+    <item name="search_destination" type="id" />
+    <item name="search_perform_search" type="id" />
+    <item name="fragment_container" type="id" />
+</resources>

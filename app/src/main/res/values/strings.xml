@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Okinawa Transport Navi</string>
+    <string name="title_activity_search_routes_activity">Okinawa Transport</string>
+    <string name="action_settings">Menu</string>
+    <string name="starting_location_hint">Current location</string>
+    <string name="destination_location_hint">Destination</string>
+    <string name="calculate_route">Calculate Route</string>
+    <string name="title_activity_display_routes">Matching Routes</string>
+    <string name="header_route_name">Route Name</string>
+    <string name="header_route_cost">Route Cost</string>
+    <string name="header_route_duration">Route Duration</string>
+    <string name="matching_routes_title">Matching routes</string>
+    <string name="stops_summary_text">The route contains the following stops:</string>
+    <string name="title_activity_route_detail">Details for Route</string>
+    <string name="accessibility_title">Wheelchair Accessibility:</string>
+    <string name="accessibility_none">No Wheelchair Accessibility</string>
+    <string name="accessibility_partial">Partial Wheelchair Accessibility</string>
+    <string name="accessibility_full">Full Accessibility</string>
+    <string name="route_cost_text">Cost to Destination</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

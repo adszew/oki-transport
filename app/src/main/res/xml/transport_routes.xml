@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transportation>
+    <route name="29" operator="Ryukyuu Bus" method="Bus">
+        <stop cost="0" name="NAHA Bus terminal" />
+        <stop cost="230" name="KENCHO KITAGUCHI" location="26.213673, 127.679632"/>
+        <stop cost="230" name="MATSUO" />
+        <stop cost="230" name="MAKISHI" />
+        <stop cost="230" name="ASATO" />
+        <stop cost="230" name="SOGENJI" />
+        <stop cost="230" name="NAKANOHASHI" />
+        <stop cost="230" name="TOMARI TAKAHASHI" />
+        <stop cost="230" name="NORIN CHUKIN MAE" />
+        <stop cost="230" name="WAKAMATSU IRIGUCHI" />
+        <stop cost="230" name="TOMARI TAKAHASHI" />
+        <stop cost="230" name="UENOYA" />
+        <stop cost="230" name="DAIICHI AMEKU" />
+        <stop cost="230" name="AMEKU" />
+        <stop cost="230" name="AJA" />
+        <stop cost="230" name="AJABASHI" />
+        <stop cost="280" name="JITCHAKU" /> <!--50 -->
+        <stop cost="310" name="DAIICHI NAKANISHI" /> <!--30 -->
+        <stop cost="350" name="NAKANISHI" /> <!--40 -->
+        <stop cost="350" name="MIYAGI" />
+        <stop cost="350" name="YAFUSO" />
+        <stop cost="390" name="GUSUKUMA" /> <!-- 40 -->
+        <stop cost="390" name="DAINI GUSUKUMA" />
+        <stop cost="450" name="MINATOGAWA" /> <!-- 60 -->
+        <stop cost="450" name="DAIICHI MAKIMINATO" />
+        <stop cost="450" name="MAKIMINATO" />
+        <stop cost="480" name="UCHIDOMARI" /> <!-- 30 -->
+        <stop cost="480" name="OJANA" />
+        <stop cost="530" name="MASHIKI" /> <!-- 50 -->
+        <stop cost="530" name="DAIICHI OYAMA" />
+        <stop cost="580" name="OYAMA" /> <!-- 30 -->
+        <stop cost="580" name="ISA" />
+        <stop cost="630" name="ISAGAWA" /> <!-- 50 -->
+        <stop cost="630" name="ISAHAMA" />
+        <stop cost="630" name="KITAMAE" />
+        <stop cost="660" name="CHATAN" /> <!-- 30 -->
+        <stop cost="680" name="JARGARU IRIGUCHI" /> <!-- 20 -->
+        <stop cost="730" name="GUN BYOIN MAE" /> <!-- 50 -->
+        <stop cost="730" name="KUWAE" />
+        <stop cost="730" name="IHEI" />
+        <stop cost="770" name="KOKUTAI IRIGUCHI" /> <!-- 40 -->
+        <stop cost="770" name="SUNABE" />
+        <stop cost="830" name="KAIHIN KOEN MAE" /> <!-- 50 -->
+        <stop cost="830" name="MIZUGAMA" />
+        <stop cost="870" name="KADENACHO YAKUBA MAE" /> <!-- 40 -->
+        <stop cost="870" name="KADENA" />
+        <stop cost="910" name="OWAN" /> <!-- 40 -->
+        <stop cost="910" name="HIJA" />
+        <stop cost="910" name="HIJAKUSHIBARU" />
+        <stop cost="930" name="IRAMINA" /> <!-- 20 -->
+        <stop cost="960" name="OKI" /> <!-- 30 -->
+        <stop cost="960" name="FURUGEN SHOGAKKO IRIGUCHI" />
+        <stop cost="990" name="AKANUKUU MAE" /> <!-- 30 -->
+        <stop cost="990" name="OZOE" />
+        <stop cost="990" name="SOBE" />
+        <stop cost="1000" name="TOYA" /> <!-- 10 -->
+        <stop cost="1000" name="YOMITAN SHINRYOJO MAE" />
+        <stop cost="1050" name="UFUDO" /> <!-- 50 -->
+        <stop cost="1050" name="NAMIHIRA" />
+        <stop cost="1060" name="TAKASHIHO IRIGUCHI" /> <!-- 10 -->
+        <stop cost="1060" name="TAKASHIHO" />
+        <stop cost="1060" name="UZA KOMINKAN MAE" />
+        <stop cost="1080" name="SENAHA IRIGUCHI" /> <!-- 20 -->
+        <stop cost="1080" name="YOMITAN Bus terminal" />
+    </route>
+</transportation>

@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.RouteSearchView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- The starting location of the search. Represents an address, or a known stop. -->
+        <AutoCompleteTextView android:id="@+id/search_origin"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/starting_location_hint" />
+
+        <!-- The destination location of the search. Represents an address, or a known stop. -->
+        <AutoCompleteTextView android:id="@+id/search_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/destination_location_hint" />
+
+        <!-- A button to perform the search -->
+        <Button android:id="@+id/search_perform_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate_route"
+            android:layout_marginBottom="20pt"/>
+
+        <ListView
+            android:id="@+id/route_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </LinearLayout>
+
+
+
+</FrameLayout>

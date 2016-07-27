@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stops>
+    <stop name="NAHA Bus terminal" alternativeName="" />
+    <stop name="KENCHO KITAGUCHI" alternativeName="県庁北口" location="26.213673, 127.679632"/>
+    <stop name="MATSUO" alternativeName="" />
+    <stop name="MAKISHI" alternativeName="" />
+    <stop name="ASATO" alternativeName="" />
+    <stop name="SOGENJI" alternativeName="" />
+    <stop name="NAKANOHASHI" alternativeName="" />
+    <stop name="TOMARI TAKAHASHI" alternativeName="" />
+    <stop name="NORIN CHUKIN MAE" alternativeName="" />
+    <stop name="WAKAMATSU IRIGUCHI" alternativeName="" />
+    <stop name="TOMARI TAKAHASHI" alternativeName="" />
+    <stop name="UENOYA" alternativeName="" />
+    <stop name="DAIICHI AMEKU" alternativeName="" />
+    <stop name="AMEKU" alternativeName="" />
+    <stop name="AJA" alternativeName="" />
+    <stop name="AJABASHI" alternativeName="" />
+    <stop name="JITCHAKU" alternativeName="" />
+    <stop name="DAIICHI NAKANISHI" alternativeName="" />
+    <stop name="NAKANISHI" alternativeName="" />
+    <stop name="MIYAGI" alternativeName="" />
+    <stop name="YAFUSO" alternativeName="" />
+    <stop name="GUSUKUMA" alternativeName="" />
+    <stop name="DAINI GUSUKUMA" alternativeName="" />
+    <stop name="MINATOGAWA" alternativeName="" />
+    <stop name="DAIICHI MAKIMINATO" alternativeName="" />
+    <stop name="MAKIMINATO" alternativeName="" />
+    <stop name="UCHIDOMARI" alternativeName="" />
+    <stop name="OJANA" alternativeName="" />
+    <stop name="MASHIKI" alternativeName="" />
+    <stop name="DAIICHI OYAMA" alternativeName="" />
+    <stop name="OYAMA" alternativeName="" />
+    <stop name="ISA" alternativeName="" />
+    <stop name="ISAGAWA" alternativeName="" />
+    <stop name="ISAHAMA" alternativeName="" />
+    <stop name="KITAMAE" alternativeName="" />
+    <stop name="CHATAN" alternativeName="" />
+    <stop name="JARGARU IRIGUCHI" alternativeName="" />
+    <stop name="GUN BYOIN MAE" alternativeName="" />
+    <stop name="KUWAE" alternativeName="" />
+    <stop name="IHEI" alternativeName="" />
+    <stop name="KOKUTAI IRIGUCHI" alternativeName="" />
+    <stop name="SUNABE" alternativeName="" />
+    <stop name="KAIHIN KOEN MAE" alternativeName="" />
+    <stop name="MIZUGAMA" alternativeName="" />
+    <stop name="KADENACHO YAKUBA MAE" alternativeName="" />
+    <stop name="KADENA" alternativeName="" />
+    <stop name="OWAN" alternativeName="" />
+    <stop name="HIJA" alternativeName="" />
+    <stop name="HIJAKUSHIBARU" alternativeName="" />
+    <stop name="IRAMINA" alternativeName="" />
+    <stop name="OKI" alternativeName="" />
+    <stop name="FURUGEN SHOGAKKO IRIGUCHI" alternativeName="" />
+    <stop name="AKANUKUU MAE" alternativeName="" />
+    <stop name="OZOE" alternativeName="" />
+    <stop name="SOBE" alternativeName="" />
+    <stop name="TOYA" alternativeName="" />
+    <stop name="YOMITAN SHINRYOJO MAE" alternativeName="" />
+    <stop name="UFUDO" alternativeName="" />
+    <stop name="NAMIHIRA" alternativeName="" />
+    <stop name="TAKASHIHO IRIGUCHI" alternativeName="" />
+    <stop name="TAKASHIHO" alternativeName="" />
+    <stop name="UZA KOMINKAN MAE" alternativeName="" />
+    <stop name="SENAHA IRIGUCHI" alternativeName="" />
+    <stop name="YOMITAN Bus terminal" alternativeName="" />
+</stops>
