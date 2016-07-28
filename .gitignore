@@ -20,3 +20,6 @@ local.properties
 
 # Mac specific files
 .DS_Store
+
+# Build directory
+build/
