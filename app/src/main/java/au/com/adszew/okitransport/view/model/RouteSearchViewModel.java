@@ -40,7 +40,7 @@ public class RouteSearchViewModel implements Serializable {
     public RouteSearchViewModel() {
         mDestination          = "";
         mOrigin               = "";
-        mRoutes               = new ArrayList<>();
+        mRoutes               = new ArrayList<RouteEntry>();
         mOffset               = 0;
         mSearchInvalidated    = true;
     }
@@ -119,7 +119,7 @@ public class RouteSearchViewModel implements Serializable {
     public List<String> getSuggestions(final String hint, int limit) {
         final RouteQueryController controller = new RouteQueryController();
         final List<Stop> stops = controller.searchForStops(hint, limit);
-        final List<String> result = new ArrayList<>(stops.size());
+        final List<String> result = new ArrayList<String>(stops.size());
         for (final Stop stop : stops) {
             result.add(stop.getName());
         }
@@ -183,7 +183,7 @@ public class RouteSearchViewModel implements Serializable {
      *      The results of the current search.
      */
     public List<String> getSearchResults() {
-        final List<String> searchResults = new ArrayList<>();
+        final List<String> searchResults = new ArrayList<String>();
         for (final RouteEntry entry : mRoutes) {
             searchResults.add(entry.description);
         }
