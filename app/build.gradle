@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'com.android.application'
+apply plugin: 'pmd'
+apply plugin: 'findbugs'
+apply plugin: 'checkstyle'
 
 android {
     compileSdkVersion 23
@@ -23,7 +27,26 @@ android {
     }
 }
 
+task findbugs(type: FindBugs) {
+    ignoreFailures = true
+    effort         = "max"
+    reportLevel    = "low"
+    excludeFilter  = new File("${project.rootDir}/findbugs-exclude.xml")
+    classes        = files("build/intermediates/classes/")
+    source         = fileTree('src/main/java')
+    reports {
+        xml.enabled  = false
+        html.enabled = true
+    }
+    classpath      = files()
+}
 
+
+task pmd(type: Pmd) {
+    ignoreFailures = true
+    source fileTree('src/main/java')
+    ruleSets = ["java-basic", "java-android"]
+}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])

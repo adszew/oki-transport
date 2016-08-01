@@ -1,0 +1,10 @@
+<FindBugsFilter>
+    <!-- Ignore all problems with the R.class; there is generated and there is nothing we can do -->
+    <Match>
+        <Class name="~.*\.R\$.*" />
+    </Match>
+    <!-- Ignore Test classes, if they have been included on the class path for some reason -->
+    <Match>
+        <Class name="~.*\.*Test" />
+    </Match>
+</FindBugsFilter>

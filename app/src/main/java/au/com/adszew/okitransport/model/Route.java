@@ -34,7 +34,7 @@ public class Route {
         this.operator      = operator;
         this.accessibility = WheelchairAccessibility.NOT_ACCESSIBLE;
         this.stops         = new ArrayList<Stop>();
-        this.cost          = new BigDecimal(0);
+        this.cost          = BigDecimal.ZERO;
     }
 
     /**
