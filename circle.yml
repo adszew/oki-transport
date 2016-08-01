@@ -1,8 +1,7 @@
-machine:
-  gradle:
-    # Findbugs requires 2.2 or later
-    version: 2.2
-
 general:
   artifacts:
     - "app/build/reports"
+
+test:
+  override:
+    - ./gradlew test findbugs pmd
