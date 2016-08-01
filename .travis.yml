@@ -8,7 +8,7 @@ android:
     - sys-img-armeabi-v7a-android-23
 
 script:
-  - ./gradlew build
+  - ./gradlew build pmd findbugs
 
 jdk:
   - oraclejdk8
